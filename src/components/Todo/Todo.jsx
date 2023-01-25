@@ -14,7 +14,7 @@ export default function Todo({ todo, onUpdate, onDelete }) {
             <input 
                 className={styles.checkbox}
                 type='checkbox' 
-                id='checkbox' 
+                id='id' 
                 checked={status === 'done'}
                 onChange={handleChange}
             />
