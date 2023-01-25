@@ -34,7 +34,7 @@ body {
 }
 
 #root {
-  width: 768px;
+  width: 414px;
   height: 95%;
   max-width: 500px;
   background-color: var(--color-bg-dark);
