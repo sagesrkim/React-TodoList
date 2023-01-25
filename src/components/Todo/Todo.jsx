@@ -15,7 +15,7 @@ export default function Todo({ todo, onUpdate, onDelete }) {
                 className={styles.checkbox}
                 type='checkbox' 
                 id='checkbox' 
-                checked={status === 'done'} 
+                checked={status === 'done'}
                 onChange={handleChange}
             />
             <label className={styles.text} htmlFor='checkbox'>{text}</label>

@@ -1,12 +1,19 @@
 :root{
   --color-bg-dark: #f9f9f9;
-  --color-bg: #fdfffd;
+  --color-bg:#Fdf7e6;
   --color-gray: #d1d1d1;
   --color-text: #42444a;
-  --color-accent-dark: #0083ff;
   --color-accent: #F58929;
   --color-white: #fff;
   --color-scrollbar: #aaa7a7;
+}
+
+html.dark {
+  --color-bg: #1d3369;
+  --color-bg-dark: #0d0e1d;
+  --color-accent: #2294ff;
+  --color-text: #fdfffd;
+
 }
 
 body {
@@ -22,10 +29,12 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 1.1rem;
+  background-color: var(--color-bg);
   accent-color: var(--color-accent);
 }
+
 #root {
-  width: 70%;
+  width: 768px;
   height: 95%;
   max-width: 500px;
   background-color: var(--color-bg-dark);
@@ -54,12 +63,12 @@ ul {
 
 button {
   background: inherit ; 
-  border:none; 
-  box-shadow:none; 
-  border-radius:0; 
-  padding:0; 
-  overflow:visible; 
-  cursor:pointer
+  border: none; 
+  box-shadow: none; 
+  border-radius: 0; 
+  padding: 0; 
+  overflow: visible; 
+  cursor: pointer;
 }
 
 ::-webkit-scrollbar {

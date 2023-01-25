@@ -13,7 +13,7 @@ export default function TodoList({ filter }) {
     }
     const handleUpdate = (updated) => 
         setTodos(todos.map((t) => (t.id === updated.id ? updated : t )));
-    const handleDelete = (deleted) => setTodos(todos.filter(t => t.id !== deleted.id)); // 삭제하고자 하는 게 아닌 것만 유지
+    const handleDelete = (deleted) => setTodos(todos.filter(t => t.id !== deleted.id));
 
     const filtered = getFilteredItems(todos, filter);
     return (

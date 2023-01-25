@@ -3,12 +3,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-bg);
+    background-color: var(--color-bg-dark);
 }
 
-h2 {
-    margin-left: 0.3rem;
+h1 {
     color: var(--color-text);
+}
+
+.toggle {
+    font-size: 1.3rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--color-text);
+    transition: all 150ms ease-in-out;
+}
+
+.toggle:hover {
+    transform: scale(1.1);
+    color: var(--color-accent);
 }
 
 .filters {
