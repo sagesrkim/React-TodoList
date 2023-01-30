@@ -34,3 +34,26 @@ input:checked + label {
     color: var(--color-accent);
     transform: scale(1.2);
 }
+
+.button:first-of-type {
+    margin-right: 0.5rem;
+}
+
+.editBtn {
+    font-size: 0.8rem;
+    color: var(--color-text);
+    transition: all 150ms ease-out;
+}
+
+.editBtn:hover {
+    transform: scale(1.2);
+}
+
+.input {
+    flex: 1 0 auto;
+    font-size: 1rem;
+    padding: 0.5rem 0.7rem;
+    border: none;
+    outline: none; 
+    border-radius: 4px;
+}
