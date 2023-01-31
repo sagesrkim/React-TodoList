@@ -16,9 +16,23 @@
 #### 개발일자: 23/01/2023 - 25/01/2023
 #### URL: [보러 가기👀](https://prismatic-sundae-d3cc35.netlify.app/)
 #### 사용한 기술 스택 
-
-#### 파일 구조 
+- react
+- Context API
+- uuid
+- Post CSS
 
 ## 구현 기능
 
 ## 개선 사항
+
+## 파일 구조
+```
+📦src
+┣ 📂Context
+┣ 📂components
+ ┃ ┣ 📂AddTodo
+ ┃ ┣ 📂Header
+┃ ┣ 📂Header
+ ┃ ┣ 📂Todo
+┃ ┣ 📂TodoList
+```
