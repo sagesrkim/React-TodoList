@@ -30,9 +30,9 @@
 📦src
 ┣ 📂Context
 ┣ 📂components
- ┃ ┣ 📂AddTodo
- ┃ ┣ 📂Header
+┃ ┣ 📂AddTodo
 ┃ ┣ 📂Header
- ┃ ┣ 📂Todo
+┃ ┣ 📂Header
+┃ ┣ 📂Todo
 ┃ ┣ 📂TodoList
 ```
